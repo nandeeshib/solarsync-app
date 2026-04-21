@@ -342,9 +342,7 @@ const AuthPage = ({ onLogin }) => {
             </button>
           </div>
 
-          <p style={{ fontSize:13, color:"#64748B", textAlign:"center", marginTop:16 }}>
-            Demo: use any email + password (min 6 characters)
-          </p>
+          
 
           <div style={{ marginTop:16, padding:"12px 16px", background:"#FEF3C7", borderRadius:10, border:"1px solid #FDE68A" }}>
             <p style={{ fontSize:12, color:"#92400E" }}>
@@ -750,7 +748,7 @@ const CarbonView = () => {
           <div style={{ textAlign:"center" }}>
             <div style={{ fontSize:40 }}>🏆</div>
             <h3 style={{ fontFamily:"Syne,sans-serif", fontWeight:800, fontSize:18, margin:"8px 0 4px" }}>Green Certificate</h3>
-            <p style={{ fontSize:12, color:"#64748B", marginBottom:12 }}>Arjun Sharma — 2024</p>
+            <p style={{ fontSize:12, color:"#64748B", marginBottom:12 }}>Nandeesh — 2026</p>
             <div style={{ background:"white", borderRadius:10, padding:14, marginBottom:14 }}>
               <div style={{ fontSize:13, color:"#64748B" }}>Total CO₂ Avoided</div>
               <div style={{ fontSize:28, fontWeight:800, color:"#10B981", fontFamily:"Syne,sans-serif" }}>{MOCK.energy.co2} kg</div>
@@ -1042,9 +1040,7 @@ export default function SolarSync() {
         </main>
       </div>
 
-      <div style={{ position:"fixed", bottom:0, right:0, background:"#0F172A", color:"rgba(255,255,255,0.6)", fontSize:11, padding:"6px 14px", borderTopLeftRadius:8, zIndex:1000 }}>
-        ☁️ Vercel · Railway.app · Supabase
-      </div>
+      
     </>
   );
 }
