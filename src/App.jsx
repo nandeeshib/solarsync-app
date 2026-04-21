@@ -217,7 +217,7 @@ const AuthPage = ({ onLogin }) => {
     setLoading(true);
     await new Promise(r => setTimeout(r, 1400));
     setLoading(false);
-    onLogin({ name: form.username || "Arjun Sharma", email: form.email });
+    onLogin({ name: form.username || "Nandeesh", email: form.email });
   };
 
   return (
@@ -306,7 +306,7 @@ const AuthPage = ({ onLogin }) => {
             {mode==="signup" && (
               <div>
                 <label style={{ fontSize:13, fontWeight:600, color:"#334155", display:"block", marginBottom:6 }}>Username</label>
-                <input className="input-field" placeholder="e.g. arjun_solar" value={form.username}
+                <input className="input-field" placeholder="e.g. nandi_solar" value={form.username}
                   onChange={e=>setForm({...form,username:e.target.value})}/>
               </div>
             )}
@@ -344,11 +344,6 @@ const AuthPage = ({ onLogin }) => {
 
           
 
-          <div style={{ marginTop:16, padding:"12px 16px", background:"#FEF3C7", borderRadius:10, border:"1px solid #FDE68A" }}>
-            <p style={{ fontSize:12, color:"#92400E" }}>
-              ☁️ <strong>Cloud Stack:</strong> Supabase (Auth + DB) · Railway.app (API) · Vercel (Frontend)
-            </p>
-          </div>
         </div>
       </div>
     </div>
